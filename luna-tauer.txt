@@ -1,0 +1,87 @@
+ 1. What is Semantic HTML? 
+ It is used to describe tags with meaning
+    2. What is HTML used for? 
+    It is used to structure a web page and its content.
+    3. What is an attribute and where do we put it? 
+    an attribute is used to provide extra information about an element and it must 
+    be within quotes.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 is the biggest text by default used for a header and should 
+    be used once per page.
+    5. Name two tags that have required attributes
+    <img and <a
+    6. What do we put in the head of our HTML document? 
+    We can put the page title or links to css
+    7. What is an id? 
+    they are titles that can only appear on a single element
+    8. What elements can I add an id to? 
+    you can add it to an html element like <h1
+    9. How many times can I use the same id on a page? 
+    once
+    10. What is a class? 
+    it's an attribute which specifies one or more class names for an HTML element.
+    11. What elements can I add a class to? 
+    class can be used on any html element
+    12. How many times can I use the same class on a page? 
+    there is no limit
+    13. How do I get my link to open in a new tab?
+    you add an anchor tag 
+    14. What is the alt attribute in the image tag used for? 
+    it provides alternative info for an image if for some reason the image cannot 
+    be opened.
+    15. How do I reference an id?
+    you use (#) followed by an id name
+    16. What is the difference between a section and a div
+    <section> means that the content inside is grouped 
+     and should appear as an entry in an outline of the page.
+    <div> does not convey any meaning, aside from any found in its class, 
+    lang and title attributes.
+    17. What is CSS used for? 
+    It allows us to add style and layout to our web pages.
+    18. How to we select an element? Example - every h2 on the page
+    by adding class or id to an element
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    The difference between an ID and a class is that an ID is only used to 
+    identify one single element in our HTML. A class can be used to identify 
+    more than one HTML element.
+    Ex: only having one element for a header id or footer id.
+    Ex: you can have muiltiple multiple paragraphs with a .content class.
+    20. How do we select classes in CSS?
+    by adding a (.) at the beginning then the name of the class
+    21. How do we select a p element with a single class of “human””?
+    ?
+    22. What is a parent child selector? When would this be useful? 
+    it selects all elements that are a direct child of the specified element.
+    you can use it to perform various operations on the selected element.
+    23. How do you select all links within a div with the class of sidebar?
+    i am not sure
+    24. What is a pseudo selector?
+    it selects elements that are in a specific state like hovering over by
+    the mouse
+    25. What do we use the change the spacing between lines?
+    line-height
+    26. What do we use to change the spacing between letters?
+   letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+    you would do border: 1px dotted black;
+    29. How do I select everything on the page? 
+    By using *
+    30. How do I write a comment in CSS?
+    you would use /* and end with */
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm -r. you can easily lose all your work.
+    34. Why should I use version control? 
+    to keep track of changes
+    35. How often should I commit to github?
+    everytime you add a file
+    36. What is the command we would use to push our repo up to github? 
+    git push origin -u 'firstname-lastname'
+    37. Walk me through Lambda's git flow.
+     first you fork, then clone your url, branch in vs code by using git checkout,
+     you make your changes and then commit. Push to githuub and then pull.
